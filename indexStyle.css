@@ -1,0 +1,298 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* MY CODE*/
+.main-wrapper{
+  margin:0 auto;
+  width: 1000px;
+}
+a{
+  text-decoration: none;
+}
+
+body{
+  background-color: #ccc;
+}
+
+header nav{
+  width: 100%;
+  height: 65px;
+  background-color: #fff;
+}
+
+header nav ul{
+  float: center;
+}
+
+header nav ul li{
+  float: left;
+  list-style: none;
+}
+
+header nav ul li a {
+  line-height: 60px;
+  display: block;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: cursive;
+  color: #1e1e1e;
+  padding: 0 20px;
+}
+
+header nav ul li a:hover{
+  color:green;
+}
+
+header .nav-login{
+  float:right;
+}
+header .nav-login form{
+  float:left;
+  padding-top: 15px;
+}
+header .nav-login form input{
+  float:left;
+  width: : 140px;
+  height: 30px;
+  padding :0px 10px;
+  margin-right: 10px;
+  border: none;
+  background-color: #ccc;
+  font-family: arial;
+  font-size: 14px;
+  color:#111;
+  line-height: 30px;
+}
+header .nav-login form button{
+  float:left;
+  width: : 60px;
+  height: 30px;
+  margin-right: 10px;
+  border: none;
+  background-color: #f3f3f3;
+  font-family: arial;
+  font-size: 14px;
+  color:#111;
+  cursor: pointer;
+}
+header .nav-login form button:hover{
+ background-color: #ccc;
+}
+header .nav-login a{
+  display: block;
+  width: 60px;
+  height:60px;
+  border: none;
+  float:left;
+  background-color: #fff;
+  font-family: arial;
+  font-size: 16px;
+  color: #111;
+  line-height: 63px;
+  cursor:pointer;
+}
+.title{
+  margin: 20px;
+  font-size: 40px;
+  font-style: italic;
+  color: green;
+  text-align: center;
+}
+
+.default {
+  background: #fff;
+  padding: 4em 4em 2em;
+  max-width: 400px;
+  margin: 20px auto 0;
+  box-shadow: 0 0 1em #222;
+  border-radius: 2px;
+}
+.default h2 {
+  margin: 0 0 20px 0;
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+  color: #666666;
+  border-bottom: solid 1px #e5e5e5;
+}
+
+.default p {
+  margin: 0 0 3em 0;
+  position: relative;
+}
+
+.default input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  outline: none;
+  margin: 0;
+}
+.default input[type="text"],
+.default input[type="password"] {
+  background: #fff;
+  border: 1px solid #dbdbdb;
+  font-size: 1.6em;
+  padding: .8em .5em;
+  border-radius: 2px;
+}
+
+.default input[type="text"]:focus,
+.defaultinput[type="password"]:focus {
+  background: #fff;
+}
+.default a {
+  background: rgba(148, 186, 101, 0.7);
+  box-shadow: 0 3px 0 0 rgba(123, 163, 73, 0.7);
+  border-radius: 2px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 20px;
+  line-height: 1.6em;
+  margin: 2em 0 0;
+  outline: none;
+  padding: .8em 0;
+  text-shadow: 0 1px #68B25B;
+  text-align: center;
+}
+.default input[type="submit"] {
+  background: rgba(148, 186, 101, 0.7);
+  box-shadow: 0 3px 0 0 rgba(123, 163, 73, 0.7);
+  border-radius: 2px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 20px;
+  line-height: 1.6em;
+  margin: 2em 0 0;
+  outline: none;
+  padding: .8em 0;
+  text-shadow: 0 1px #68B25B;
+}
+.default input[type="submit"]:hover {
+  background: #94af65;
+  text-shadow: 0 1px 3px rgba(70, 93, 41, 0.7);
+}
+.default label {
+  position: absolute;
+  left: 8px;
+  top: 12px;
+  color: #999;
+  font-size: 16px;
+  display: inline-block;
+  padding: 4px 10px;
+  font-weight: 400;
+  background-color: rgba(255, 255, 255, 0);
+  -moz-transition: color 0.3s, top 0.3s, background-color 0.8s;
+  -o-transition: color 0.3s, top 0.3s, background-color 0.8s;
+  -webkit-transition: color 0.3s, top 0.3s, background-color 0.8s;
+  transition: color 0.3s, top 0.3s, background-color 0.8s;
+}
+.default label.floatLabel {
+  top: -11px;
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+}
